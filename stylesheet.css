@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display');
+
+
+body {
+  font-family: "Open Sans";
+  font-size: 1em;
+}
+
+footer {
+  font-family: "Open Sans";
+  font-size: .8em;
+margin: 0px;
+  padding: 20px;
+   display: flex;
+  justify-content: center;
+  background-color: #dbd9d9;
+}
+
+h1 {
+  font-family: "Playfair Display";
+  font-size: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 16px;
+  text-align: center;
+  font-family: "Open Sans";
+}
+
+h4 {
+  font-family: "Playfair Display";
+  font-size: 17px;
+  font-variant: small-caps;
+  text-align: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #65666a;
+}
+
+a.highlight:hover {
+  background-color: #3F1755;
+  color: white;
+  padding: 1px;
+}
+
+p {
+  font-family: "Open Sans";
+  text-align: center;
+  }
+
+.instructions {
+  margin: 1em 15em;
+}
+
+
+#form-ui {
+  margin: 10px 0px 7px 0px;
+   display: flex;
+  justify-content: center;
+}
+
+select {
+  margin: 10px;
+  padding: 5px;
+  font-family: "Open Sans";
+}
+
+#container {
+  position: relative;
+  margin: 0 auto;
+  clear: both;
+}
+
+.grid-item {
+  float: left;
+  margin: 5px;
+  padding: 20px;
+  width: 150px;
+  z-index: 1;
+  border-radius: 7px;
+  opacity: .75;
+}
+
+.BA {
+  background: linear-gradient(217deg, rgba(129, 189, 65, .8), rgba(197,216,21,0) 70.71%),
+            linear-gradient(127deg, rgba(117,179,219,.8), rgba(117,179,219,0) 70.71%),
+            linear-gradient(336deg, rgba(0 ,56, 168,.8), rgba(0, 56, 168,0) 70.71%);
+}
+
+.MA {
+   background: linear-gradient(336deg, rgba(20,4,40,.8), rgba(63,23,85,0) 70.71%),
+            linear-gradient(217deg, rgba(150,66,151,.8), rgba(200,110,148,0) 70.71%),
+            linear-gradient(127deg, rgba(252,159,126,.8), rgba(252,159,126,0) 70.71%);
+}
+
+.item-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.grid-item:hover {
+  opacity: 1;
+}
+
+#output {
+  display:none; 
+}
+
+.example-box {
+  margin: 5px;
+  padding: 20px;
+  width: 100px;
+  border-radius: 7px;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 12px;
+}
+
+.example-container {
+    margin: 10px 0px 7px 0px;
+   display: flex;
+  justify-content: center;
+}
+
+
+@media only screen and (min-width: 1900px) {
+  
+  .instructions {
+  margin: 1em 30em;
+}
+}
+
+@media only screen and (max-width: 1200px) {
+  
+  .instructions {
+  margin: 1em 5em;
+}
+}
+
+@media only screen and (max-width: 1000px) {
+  
+  .instructions {
+  margin: 1em;
+}
+}
+
+@media only screen and (max-width: 860px) {
+  
+    #form-ui {
+  margin: 0 auto;
+    width: 70%;
+   display: block;
+}
+  
+}
+
+@media only screen and (max-width: 405px) {
+  
+    .instructions {
+  margin: 1px;
+}
+  
+  #form-ui {
+  margin: 0 auto;
+    width: 100%;
+   display: block;
+}
+  
+   .example-container {
+    display: block;
+     margin: 0 auto;
+  width: 65%;
+  }
+  
+  
+}
