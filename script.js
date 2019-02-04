@@ -1,4 +1,4 @@
-
+jQuery( function() {
 
 var $container = $('#container').isotope({
   itemSelector: '.grid-item',
@@ -33,6 +33,6 @@ var $output = $('#output');
     $container.isotope({ filter: filterValue })
   });
 
-
+});
 
 
