@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display');
 
+header {
+  background-color: #3d1951;
+  margin: 0px;
+  padding: 20px;
+   display: flex;
+  justify-content: center;
+}
 
 body {
   font-family: "Open Sans";
